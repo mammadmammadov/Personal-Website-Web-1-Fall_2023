@@ -147,6 +147,7 @@ input[type="submit"], input[type="reset"]{
     height: 50px;
     font-weight: bold;
     font-size: large;
+    cursor: pointer;
 }
 
 input[type="submit"]{
@@ -158,4 +159,8 @@ hr{
     margin: 0 auto;
     width: 50%;
     border: 2px dashed gray;
+}
+
+button{
+    cursor: pointer;
 }
