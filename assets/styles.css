@@ -143,7 +143,7 @@ input[type="submit"], input[type="reset"]{
 }
 
 input[type="submit"]{
-    background-color: brown;
+    background-color: rgb(190,75, 75);
     color:white;
 }
 
