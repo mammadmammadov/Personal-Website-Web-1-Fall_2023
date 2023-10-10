@@ -7,8 +7,9 @@ img{
 
 main {
     height: 100%;
-    min-height: 100vh;;
-    position: fixed;
+    min-height: 95vh;
+    top:0;
+    bottom: 0;
     left:0;
     right:0;
     display: flex;
