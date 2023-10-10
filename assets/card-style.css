@@ -6,7 +6,11 @@ img{
 }
 
 main {
-    height: 100vh;
+    height: 100%;
+    min-height: 100vh;;
+    position: fixed;
+    left:0;
+    right:0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,3 +124,16 @@ li a{
 #name {
     color: #08aeac;
 }
+
+.i-footer{
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     padding-bottom: 1%;
+     padding-top: 1%;
+     width: 100%;
+     background-color: brown;
+     color: white;
+     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
