@@ -25,10 +25,18 @@ h2{
     padding-top: 3%;
 }
 
-
-
-
+.all-icons{
+    
+    margin-top: 5%;
+}
   
+.icon {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .icon:hover {
+    transform: rotate(360deg);
+  }
   
   
   

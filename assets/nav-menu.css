@@ -1,4 +1,4 @@
-ul{
+.menu ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,22 +10,22 @@ ul{
     width: 100%;
 }
 
-li:hover{
+.menu li:hover{
     background-color: #994242;
 }
 
-li{
+.menu li{
     /* float:left is the one making the menu horizontal */
     float:left; 
     margin: 0;
     padding: 0;
 }
 
-.active{
+.menu active{
     background-color: brown;
 }
 
-li a{
+.menu li a{
     display: block;
     color: rgb(242, 242, 247);
     text-align: center;
