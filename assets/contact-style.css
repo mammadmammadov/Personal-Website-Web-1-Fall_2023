@@ -1,0 +1,40 @@
+
+  
+  /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.contact-container {
+    height: 70vh;
+    margin-top: 100px;
+    margin-left: 20%;
+    max-width: 60%;    
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  

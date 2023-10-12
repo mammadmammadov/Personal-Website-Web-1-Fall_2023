@@ -1,0 +1,29 @@
+h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 0;
+}
+
+.schools {
+    border-collapse: collapse;
+    height: 50vh;
+    width: 100%;
+    margin-top: 10%;
+  }
+  
+  .schools th, .schools td {
+    border: 4px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .schools th {
+    background-color: #cff;
+    font-weight: bold;
+  }
+  
+  .schools tr:hover {
+    background-color: #ccc;
+  }

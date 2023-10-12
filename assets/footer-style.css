@@ -1,0 +1,12 @@
+.i-footer{
+    position: fixed;
+     left: 0;
+     bottom: 0;
+     padding-bottom: 1%;
+     padding-top: 1%;
+     width: 100%;
+     background-color: brown;
+     color: white;
+     text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
