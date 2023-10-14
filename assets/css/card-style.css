@@ -18,6 +18,7 @@ main {
 }
 
 section {
+    margin-top: 5%;
     width: 500px;
     height: 570px;
     display: flex;
