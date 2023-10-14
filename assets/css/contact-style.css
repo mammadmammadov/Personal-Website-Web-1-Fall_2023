@@ -8,9 +8,9 @@ body {
 
 .contact-container {
     height: 70vh;
-    margin-top: 100px;
-    margin-left: 20%;
-    max-width: 60%;    
+    margin-top: 150px;
+    margin-left: 25%;
+    max-width: 50%;    
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -27,11 +27,14 @@ h2{
 
 .all-icons{
     
-    margin-top: 5%;
+    margin-top: 10%;
 }
   
 .icon {
-    transition: transform 1s ease-in-out;
+    transition: transform 0.8s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
   }
   
@@ -44,9 +47,55 @@ h2{
 
 .number{
     display: none;
-    margin-top: 15%;
-    margin-left: -15%;
+    justify-content: center;
+    align-items: center;
 }
+  
+
+.contact-container {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+  }
+  
+  
+  h2 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .all-icons {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  .icon a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .icon a:hover {
+    color: #007bff;
+  }
+  
+  .number {
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+
+
   
   
   

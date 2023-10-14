@@ -27,3 +27,8 @@ h2{
   .schools tr:hover {
     background-color: #ccc;
   }
+
+  table{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
