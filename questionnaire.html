@@ -16,8 +16,8 @@
         <li><a href="contact.html">Contact</a></li>
         <li><a  class="active"  href="questionnaire.html" target="_self">Questionnaire</a></li>
         <li><a href="digital_card.html">Card</a></li>
-        <li><a href="#">Github Account</a></li>
-        <li><a href="https://github.com/mammadmammadov">Github Page</a></li>
+        <li><a href="#" target="_blank">Github Account</a></li>
+        <li><a href="https://github.com/mammadmammadov" target="_blank">Github Page</a></li>
     </ul>
 
     <form action="mailto:pnnnnn43@gmail.com" method="post">
@@ -26,24 +26,30 @@
             <legend>Questions just for Fun</legend>
             <br>
             <br>
-            <label for="nickname">Your nickname: </label>
+            <label for="nickname">What is your nickname?</label>
             <input type="text" name="nickname" id="nickname" required><br><br>
-            
-            <label for="week">Choose the week: </label>
-            <input type="week" name="week" id="week"><br><br>
     
-            <label for="url">Add link to your homepage: </label>
-            <input type="url" name="url" id="url"><br><br>
-    
-            <label for="time">Select the time: </label>
+            <label for="time">Select your favorite time of the day.</label>
             <input type="time" name="time" id="time"><br><br>
     
             <label for="phone">Enter your phone: </label>
             <input type="tel" name="phone" placeholder="051-888-88-88" 
             pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" id="phone"><br><br>
-    
-            <label for="range">How much do you like programming?</label>
-            <input type="range" id="range" name="range" min="0" max="100"><br><br>
+
+
+    <label for="favorite_color">What is your favorite color?</label>
+    <input type="color" id="favorite_color" name="favorite_color" required>
+
+    <label for="favorite_animal">What is your favorite animal?</label>
+    <select id="favorite_animal" name="favorite_animal" required>
+      <option value="">Please select an option</option>
+      <option value="cat">Cat</option>
+      <option value="dog">Dog</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="upload_file">Upload a random file:</label>
+    <input type="file" id="upload_file" name="upload_file">
     
             
             <input type="submit" value="Submit">
@@ -52,5 +58,9 @@
         </form>
     
 </body>
+
+<footer class="i-footer">
+    Mammad Mammadov 2023
+</footer>
 
 </html>

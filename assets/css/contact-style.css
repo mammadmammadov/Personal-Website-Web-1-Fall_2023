@@ -32,13 +32,21 @@ h2{
   
 .icon {
     transition: transform 1s ease-in-out;
+    
   }
   
   .icon:hover {
     transform: rotate(360deg);
+    .number{
+        display: block;
+    }
   }
-  
-  
+
+.number{
+    display: none;
+    margin-top: 15%;
+    margin-left: -15%;
+}
   
   
   
