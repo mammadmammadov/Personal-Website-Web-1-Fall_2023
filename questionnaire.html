@@ -11,6 +11,74 @@
       href="/assets/favicons/questionnaire.png"
     />
     <link rel="stylesheet" href="./assets/css/gradient.css" />
+
+    <style>
+
+
+        .container {
+            margin-top: 5%;
+            width: 50%;
+            margin-left: 25%;
+            margin-bottom: 1%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        form {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 60%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        fieldset {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"],
+        input[type="time"],
+        input[type="color"],
+        select,
+        input[type="file"]{
+            width: 90%;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
   </head>
   <body>
     <ul>
@@ -38,8 +106,8 @@
       </li>
     </ul>
 
+    <div class="container">
     <form action="mailto:pnnnnn43@gmail.com" method="post">
-      <h1>Questionnaire</h1>
       <fieldset>
         <legend>Questions just for Fun</legend>
         <br />
@@ -75,6 +143,7 @@
         <input type="reset" value="Reset" />
       </fieldset>
     </form>
+</div>
   </body>
 
 </html>
